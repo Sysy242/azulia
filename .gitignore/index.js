@@ -6,7 +6,7 @@ const { get } = require("snekfetch");
 
 var prefix = "/"
 
-client.login(process.env.TOKEN);
+
 
 client.on("ready", () =>{
   console.log("je suis prêt")
