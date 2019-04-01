@@ -34,7 +34,7 @@ if(message.content === "Bonjour"){
     .addField("/clear", "clear un nombres de message ( nombres a préciser)")
     .addField("/mute", "mute l'utilisateur ( mentionner )")
     .addField("/unmute", "unmute l'utilisateur muter ( mentionner)")
-    .addField("/wa,", "warn l'utilisateur ( mentionner)")
+    .addField("/warn", "warn l'utilisateur ( mentionner)")
     .addField("/deletewarn,", "suprime un nombre de warn l'utilisateur ( mentionner)")
     .addField("/seewarn", "affiche les warns d'un utilisateur ( mentionner)")
      message.channel.send(help_embed)
