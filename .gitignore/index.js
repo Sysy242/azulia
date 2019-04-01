@@ -37,6 +37,7 @@ if(message.content === "Bonjour"){
     .addField("/wa,", "warn l'utilisateur ( mentionner)")
     .addField("/deletewarn,", "suprime un nombre de warn l'utilisateur ( mentionner)")
     .addField("/seewarn", "affiche les warns d'un utilisateur ( mentionner)")
+     message.channel.send(help_embed)
 
   }
 
